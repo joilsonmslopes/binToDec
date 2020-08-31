@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binary to Decimal</title>
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="center">  
+      <h2>Binary To Decimal Converter</h2>
+    </div>
+  </header>
+
+  <section>
+    <div class="center">
+      <div class="form">
+        <div class="input-wrapper">
+          <input type="number" name="binary" id="binary" placeholder="Digite o número binário"/>
+          <input type="button" name="acao" id="acao" value="Converter" />
+          <!-- <input type="number" name="decimal" id="decimal" placeholder="Decimal" disabled/> -->
+          <div id="res">Decimal</div>
+          <input type="button" name="acao" value="Limpar" onclick="limparInput()"/>
+        </div>
+      </div><!--form-->
+    </div><!--center-->
+  </section>
+
+  <div id="avisos">
+
+  </div>
+
+  <footer>
+    <div class="center">
+      <p>Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
