@@ -1,6 +1,6 @@
 # BinToDec
 
-![](images/binToDec.png);
+![](images/binToDec01.png);
 
 ### Descrição
 
